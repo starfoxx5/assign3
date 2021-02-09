@@ -9,12 +9,24 @@ switch (day){
     console.log("You entered: ${day}");
     console.log("The following day is: tue");
     break;
-
-
-
-
-
-
-
-
+  case "tue":
+    console.log("You entered: ${day}");
+    console.log("The following day is: wed");
+    break;
+  case "wed":
+    console.log("You entered: ${day}");
+    console.log("The following day is: thu");
+    break;
+  case "thu":
+    console.log("You entered: ${day}");
+    console.log("The following day is: fri");
+    break;
+  case "fri":
+    console.log("You entered: ${day}");
+    console.log("The following day is: sat");
+    break;
+  case "sat":
+    console.log("You entered: ${day}");
+    console.log("The following day is: sun");
+    break;
 }
