@@ -1,13 +1,12 @@
 /* inputing hr, m, s */
 
-const time1 = hours
-const time2 = minutes
-const time3 = seconds
-
 let hours = Number(prompt("Enter the hours:"));
 let minutes = Number(prompt("Enter the minutes:"));
 let seconds = Number(prompt("Enter the seconds:"));
 
+const time1 = hours
+const time2 = minutes
+const time3 = seconds
 
 // test for errors 
 if (
