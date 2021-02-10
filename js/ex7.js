@@ -1,14 +1,11 @@
-console.log("0" == 0);
-console.log("" == 0);
-console.log("" == 1);
-console.log(true == 0);
-console.log(true == 1);
+let i = 1;
 
-console.log("0" === 0);
-console.log("" === 0);
-console.log("" === 1);
-console.log(true === 0);
-console.log(true === 1);
+if ((1 > 2) && i++) {
+   //Nothing.  Want to test condition
+}
+
+console.log(`The value of i is: ${i}`);
+
 
 
 
