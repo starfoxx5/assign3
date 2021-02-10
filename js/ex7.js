@@ -1,10 +1,13 @@
-let i = 1;
-
-if ((1 < 2) && i++) {
-   //Nothing.  Want to test condition
+const x = "abc";
+switch (x) {
+  case "abc":
+    console.log("x = abc");
+    break;
+  case "def":
+    console.log("x = def");
+    break;
 }
 
-console.log(`The value of i is: ${i}`);
 
 
 
