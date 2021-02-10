@@ -1,5 +1,5 @@
 let x = 3;
-let y = 2;
+let y = 3;
 
 if (x > 2) {
   if  (y > 2) {
