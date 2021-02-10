@@ -1,12 +1,12 @@
-const x = "abc";
-switch (x) {
-  case "abc":
-    console.log("x = abc");
-    //no break
-  case "def":
-    console.log("x = def");
-    break;
+if (x > 2) {
+  if  (y > 2) {
+     z = x + y;
+     console.log("z is: ", z);
+  }
+} else {
+  console.log("x is: ", x);
 }
+
 
 
 
