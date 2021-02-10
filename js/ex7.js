@@ -1,8 +1,5 @@
-let num1 = 0;
-{
-  num1 = 1; 
-  const num2 = 0;
-}
-console.log(num1); 
-console.log(num2); 
+const pi = 3.14;
+pi = 3.14159;
+console.log(pi);
+
 
