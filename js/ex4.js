@@ -1,12 +1,12 @@
 
-const pwd = 'secret'
-let number = 0
+const pwd = 'secret';
+let number;
 
 function promptPassword( )
 {
     prompt ("Enter your Password: ");
     
-    for (let number = 0; number <= 3; number++){
+    for (let number = 1; number <= 3; number++){
         if(pwd != 'secret'){
             alert("Login is incorrect");
             number++;
