@@ -12,7 +12,7 @@ function promptPassword( )
             number++;
             prompt ("Enter your Password: ");
         }
-        if(pwd === 'secret'){
+        else if(pwd === 'secret'){
             alert(`You entered the correct password after ${number} attempt(s)`)
         }
         
