@@ -1,6 +1,6 @@
 let a = 2;
 a -= 1;
-a++;
+/* a++; */
 let b = 8;
 b += 2;
 const c = a + b * b;
