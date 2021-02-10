@@ -9,9 +9,10 @@ function promptPassword( )
     for (let number = 0; number <= 3; number++){
         if(pwd != 'secret'){
             alert("Login is incorrect");
+            number++;
             prompt ("Enter your Password: ");
         }
-        else(pwd === 'secret'){
+        if(pwd === 'secret'){
             alert(`You entered the correct password after ${number} attempt(s)`)
         }
         
