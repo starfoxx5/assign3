@@ -1,15 +1,15 @@
-let a = 2;
-a -= 1;
-a++;
+console.log(true && "Hello");      
+console.log(false && "Hello");     
+console.log(undefined && "Hello"); 
+console.log("" && "Hello");        
+console.log("Hello" && "Goodbye")  
 
-let b = 8;
-b += 2;
-const c = a + b * b;
-const d = a * b + b;
-const e = a * (b + b);
-const f = a * b / a;
-const g = b / a * a;
-console.log(a, b, c, d, e, f, g);
+console.log(true || "Hello");      
+console.log(false || "Hello");     
+console.log(undefined || "Hello"); 
+console.log("" || "Hello");        
+console.log("Hello" || "Goodbye")
+
 
 
 
