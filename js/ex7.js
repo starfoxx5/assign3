@@ -6,7 +6,7 @@ if (x > 2) {
 } else {
   console.log("x is: ", x);
 }
-
+ 
 
 
 
