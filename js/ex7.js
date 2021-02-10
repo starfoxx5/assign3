@@ -1,14 +1,15 @@
-console.log(true && "Hello");      
-console.log(false && "Hello");     
-console.log(undefined && "Hello"); 
-console.log("" && "Hello");        
-console.log("Hello" && "Goodbye")  
+console.log("0" == 0);
+console.log("" == 0);
+console.log("" == 1);
+console.log(true == 0);
+console.log(true == 1);
 
-console.log(true || "Hello");      
-console.log(false || "Hello");     
-console.log(undefined || "Hello"); 
-console.log("" || "Hello");        
-console.log("Hello" || "Goodbye")
+console.log("0" === 0);
+console.log("" === 0);
+console.log("" === 1);
+console.log(true === 0);
+console.log(true === 1);
+
 
 
 
