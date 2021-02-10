@@ -11,7 +11,7 @@ function promptPassword( )
             alert("Login is incorrect");
             prompt ("Enter your Password: ");
         }
-        if(pwd === 'secret'){
+        else(pwd === 'secret'){
             alert(`You entered the correct password after ${number} attempt(s)`)
         }
         
