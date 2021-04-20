@@ -1,25 +1,22 @@
+const password = "secret";
+let response;
+let entryCount = 0;
+let entryLimit = 3;
+let error = false;
 
-const pwd = 'secret';
-let number;
-
-function promptPassword( )
-{
-    prompt ("Enter your Password: ");
-    
-    for (let number = 1; number <= 3; number++){
-        if(pwd != 'secret'){
-            alert("Login is incorrect");
-            number++;
-            prompt ("Enter your Password: ");
-        }
-        else if(pwd === 'secret'){
-            alert(`You entered the correct password after ${number} attempt(s)`);
-        }
-        
-        
-    }
-    
-    alert(`Your account is locked! You failed to enter the correct password ${number} times`);
-    
+while (response != password && !error) {
+  if (entryCount < entryLimit) {
+    response = window.prompt("Enter Password");
+    entryCount++;
+  } else {
+    error = true;
+  }
 }
-promptPassword(); 
+
+if (error) {
+  alert(
+    `Your account is locked! You failed to enter the correct password ${entryLimit} times`
+  );
+} else {
+  alert("Success");
+}
